@@ -1,8 +1,10 @@
 # design-sandbox
 
-Canonical proof repo for **Memi 2.6.2**: a pre-warmed Next.js 16 + Tailwind 4 + shadcn workspace where AI coding agents can run interface-understanding checks before touching UI code.
+Historical proof repo pinned to **Memi 2.6.2**: a pre-warmed Next.js 16 + Tailwind 4 + shadcn workspace where AI coding agents can run interface-understanding checks before touching UI code.
 
 Use it to verify the public Memi loop: diagnose design debt, audit UX tenets, extract Tailwind tokens, export a shadcn registry, print MCP no-Figma config, and dry-run Agent Skills installation.
+
+This checkout preserves the 2.6.2 proof baseline. It does not verify the current stable release or the 2.8 development candidate.
 
 ## Stack
 - **Next.js 16** (App Router) + **TypeScript**
