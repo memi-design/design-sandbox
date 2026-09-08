@@ -19,5 +19,5 @@ General design sandbox. The full operating manual is **`.claude/CLAUDE.md`**.
 
 ## Pointers for non-Claude tools
 - Codex / Cursor / OpenCode: read this file + `.memoire/SOUL.md` + `.memoire/AGENTS.md`
-- The memi CLI/MCP package is `@memi-design/cli@2.4.0`.
+- The memi CLI/MCP package is `@memi-design/cli@2.6.2`.
 - Use `memi mcp config --target generic` to verify the no-Figma MCP command before configuring a client.

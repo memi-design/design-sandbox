@@ -54,13 +54,19 @@
       "@babel/core": "7.29.6",
       "@hono/node-server": "2.0.12",
       "body-parser": "2.3.0",
-      "brace-expansion@5.0.6": "5.0.8",
-      "fast-uri": "3.1.4",
-      "hono": "4.12.32",
-      "js-yaml": "4.3.0",
-      "postcss": "8.5.18",
-      "qs": "6.15.2",
-      "sharp": "0.35.0"
+      "brace-expansion@5.0.6": "5.0.9",
+      "fast-uri": "3.1.7",
+      "hono": "4.12.34",
+      "js-yaml": "4.3.1",
+      "postcss": "8.5.23",
+      "qs": "6.16.0",
+      "sharp": "0.35.0",
+      "ip-address@10.2.0": "10.3.1",
+      "nanoid@3.3.12": "3.3.18",
+      "postcss-selector-parser@7.1.1": "7.1.3",
+      "browserslist@4.28.2": "4.28.7",
+      "brace-expansion@1.1.13": "1.1.18",
+      "brace-expansion@2.1.2": "2.1.4"
     }
   }
 }

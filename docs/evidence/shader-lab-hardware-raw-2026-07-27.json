@@ -37,21 +37,21 @@
     "budgetMs": 16.7,
     "mainThreadSubmission": {
       "medianMs": 0,
-      "sampleCount": 50
+      "sampleCount": 90
     },
     "animationFrameCadence": {
-      "medianIntervalMs": 16.7,
-      "p95IntervalMs": 17.1,
-      "sampleCount": 49,
+      "medianIntervalMs": 8.3,
+      "p95IntervalMs": 9.6,
+      "sampleCount": 89,
       "passesBudget": true
     },
     "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.34 Safari/537.36",
     "hardwareConcurrency": 12,
     "gpuDrawPass": {
       "timer": "EXT_disjoint_timer_query_webgl2",
-      "medianMs": 0.083,
+      "medianMs": 0.058,
       "passesBudget": true,
-      "sampleCount": 50
+      "sampleCount": 95
     }
   },
   "rendering": {
