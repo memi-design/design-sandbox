@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "capturedAt": "2026-09-08T15:43:40.458Z",
-  "sourceCommit": "84e979de04889111dba252ba77a6f8a85a695bd4",
+  "capturedAt": "2026-09-08T16:27:51.455Z",
+  "sourceCommit": "ca46a638d05f46400ba4044540f932b0050d2996",
   "route": "/labs/shaders",
   "project": "chrome-hardware",
   "browserBinaryVersion": "152.0.7977.82",
   "emulatedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.34 Safari/537.36",
-  "auditEvidenceSha256": "0f86a5725f955c5d42ea77f025c164dd47a3b1687d1b6287454b86d4f611e658",
+  "auditEvidenceSha256": "eafe63df9a602d916b0fcae167a4d6b7c328428b17e78e4bba7869683cf8dd15",
   "deterministicFrame": {
     "repeatMatched": true,
     "sha256": "c5efef85c15f43a92096fc06ca70fa4ddadb174ad367afc81b810cda71d9f08e"
@@ -22,7 +22,7 @@
   "artifacts": {
     "rawEvidence": {
       "path": "docs/evidence/shader-lab-hardware-raw-2026-07-27.json",
-      "sha256": "0f86a5725f955c5d42ea77f025c164dd47a3b1687d1b6287454b86d4f611e658",
+      "sha256": "eafe63df9a602d916b0fcae167a4d6b7c328428b17e78e4bba7869683cf8dd15",
       "byteLength": 2441
     },
     "staticFrame": {
