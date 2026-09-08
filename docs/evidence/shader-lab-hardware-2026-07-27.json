@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
-  "capturedAt": "2026-07-27T02:59:08.354Z",
-  "sourceCommit": "6c5ef82549f557f6fd5e5c0d86eef39028534b52",
+  "capturedAt": "2026-09-08T15:43:40.458Z",
+  "sourceCommit": "84e979de04889111dba252ba77a6f8a85a695bd4",
   "route": "/labs/shaders",
   "command": "SHADER_HARDWARE_PROOF=1 SHADER_EVIDENCE_DIR=docs/evidence pnpm exec playwright test --project chrome-hardware --grep \"accessible deterministic\"",
   "environment": {
@@ -9,7 +9,7 @@
     "cpu": "Apple M3 Pro",
     "cpuCores": 12,
     "memoryGb": 36,
-    "browserBinaryVersion": "150.0.7871.186",
+    "browserBinaryVersion": "152.0.7977.82",
     "emulatedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.34 Safari/537.36",
     "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3 Pro, Unspecified Version)",
     "vendor": "Google Inc. (Apple)",
@@ -24,19 +24,19 @@
       "budgetMs": 16.7,
       "mainThreadSubmission": {
         "medianMs": 0,
-        "sampleCount": 50
+        "sampleCount": 90
       },
       "animationFrameCadence": {
-        "medianIntervalMs": 16.7,
-        "p95IntervalMs": 17.1,
-        "sampleCount": 49,
+        "medianIntervalMs": 8.3,
+        "p95IntervalMs": 9.6,
+        "sampleCount": 89,
         "passesBudget": true
       },
       "gpuDrawPass": {
         "timer": "EXT_disjoint_timer_query_webgl2",
-        "medianMs": 0.083,
+        "medianMs": 0.058,
         "passesBudget": true,
-        "sampleCount": 50
+        "sampleCount": 95
       }
     },
     "rendering": {
@@ -54,11 +54,11 @@
     },
     "deterministicFrame": {
       "repeatMatched": true,
-      "sha256": "c8b64b76496b72ceffc053e7ba4be7244be28b61376e87972cedaf413bae017a"
+      "sha256": "c5efef85c15f43a92096fc06ca70fa4ddadb174ad367afc81b810cda71d9f08e"
     },
     "reducedMotionFrame": {
       "repeatMatched": true,
-      "sha256": "c8b64b76496b72ceffc053e7ba4be7244be28b61376e87972cedaf413bae017a"
+      "sha256": "c5efef85c15f43a92096fc06ca70fa4ddadb174ad367afc81b810cda71d9f08e"
     },
     "accessibility": {
       "standard": "WCAG 2 A/AA and WCAG 2.1 A/AA",
@@ -68,28 +68,28 @@
   "artifacts": {
     "runReport": {
       "path": "docs/evidence/shader-lab-hardware-run-2026-07-27.json",
-      "sha256": "b90277f1fb9257112d658a2d85922ee16ef61bea1531e98318948b11cb30de62",
-      "byteLength": 1737
+      "sha256": "ddb9118af02cd538fc6d2364ed346801aff3bed6bccde2a8d34339e80982dd39",
+      "byteLength": 1738
     },
     "rawEvidence": {
       "path": "docs/evidence/shader-lab-hardware-raw-2026-07-27.json",
-      "sha256": "e624dd0344df21b8dc8ba28fa48220302b94ff8eded343de9f656d3cf4154c95",
-      "byteLength": 2443
+      "sha256": "0f86a5725f955c5d42ea77f025c164dd47a3b1687d1b6287454b86d4f611e658",
+      "byteLength": 2441
     },
     "staticFrame": {
       "path": "docs/evidence/shader-lab-hardware-static-2026-07-27.png",
-      "sha256": "c8b64b76496b72ceffc053e7ba4be7244be28b61376e87972cedaf413bae017a",
-      "byteLength": 88788
+      "sha256": "c5efef85c15f43a92096fc06ca70fa4ddadb174ad367afc81b810cda71d9f08e",
+      "byteLength": 117486
     },
     "reducedMotionFrame": {
       "path": "docs/evidence/shader-lab-hardware-reduced-motion-2026-07-27.png",
-      "sha256": "c8b64b76496b72ceffc053e7ba4be7244be28b61376e87972cedaf413bae017a",
-      "byteLength": 88788
+      "sha256": "c5efef85c15f43a92096fc06ca70fa4ddadb174ad367afc81b810cda71d9f08e",
+      "byteLength": 117486
     },
     "fullPageScreenshot": {
       "path": "docs/evidence/shader-lab-hardware-full-page-2026-07-27.png",
-      "sha256": "396fe95b14582de81ca992a17161ec1e337d51c583d355b4012985eb49c12c35",
-      "byteLength": 277663
+      "sha256": "c2bfac124df76c0da0af6d483b1208880cea7033b3c9470df11489afdc4a4819",
+      "byteLength": 326428
     }
   },
   "assessedDimensions": [
