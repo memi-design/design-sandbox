@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
-  "capturedAt": "2026-09-08T15:43:40.458Z",
-  "sourceCommit": "84e979de04889111dba252ba77a6f8a85a695bd4",
+  "capturedAt": "2026-09-08T16:27:51.455Z",
+  "sourceCommit": "ca46a638d05f46400ba4044540f932b0050d2996",
   "route": "/labs/shaders",
   "command": "SHADER_HARDWARE_PROOF=1 SHADER_EVIDENCE_DIR=docs/evidence pnpm exec playwright test --project chrome-hardware --grep \"accessible deterministic\"",
   "environment": {
@@ -28,13 +28,13 @@
       },
       "animationFrameCadence": {
         "medianIntervalMs": 8.3,
-        "p95IntervalMs": 9.6,
+        "p95IntervalMs": 9.1,
         "sampleCount": 89,
         "passesBudget": true
       },
       "gpuDrawPass": {
         "timer": "EXT_disjoint_timer_query_webgl2",
-        "medianMs": 0.058,
+        "medianMs": 0.061,
         "passesBudget": true,
         "sampleCount": 95
       }
@@ -68,12 +68,12 @@
   "artifacts": {
     "runReport": {
       "path": "docs/evidence/shader-lab-hardware-run-2026-07-27.json",
-      "sha256": "ddb9118af02cd538fc6d2364ed346801aff3bed6bccde2a8d34339e80982dd39",
+      "sha256": "b3cc0887c2185e96841ce8284a4c74000912d4b4795ce6a018df28a9cbc77c9c",
       "byteLength": 1738
     },
     "rawEvidence": {
       "path": "docs/evidence/shader-lab-hardware-raw-2026-07-27.json",
-      "sha256": "0f86a5725f955c5d42ea77f025c164dd47a3b1687d1b6287454b86d4f611e658",
+      "sha256": "eafe63df9a602d916b0fcae167a4d6b7c328428b17e78e4bba7869683cf8dd15",
       "byteLength": 2441
     },
     "staticFrame": {
