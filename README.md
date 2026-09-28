@@ -38,7 +38,7 @@ The proof runner covers:
 - `memi diagnose . --json --no-write --fail-on none`
 - `memi ux audit . --json --no-write`
 - `memi tokens --from ./src --output generated/memi-proof/tokens --format css,json --report --json`
-- `memi shadcn export --out public/r --name design-sandbox --homepage https://raw.githubusercontent.com/sarveshsea/design-sandbox/main/public --json`
+- `memi shadcn export --out public/r --name design-sandbox --homepage https://raw.githubusercontent.com/memi-design/design-sandbox/main/public --json`
 - `memi shadcn doctor --out public/r --json`
 - `memi mcp config --target generic` with `mcp start --no-figma`
 - `memi agent install universal --dry-run --json --project .`
@@ -46,7 +46,7 @@ The proof runner covers:
 Raw registry URL after push:
 
 ```text
-https://raw.githubusercontent.com/sarveshsea/design-sandbox/main/public/r/registry.json
+https://raw.githubusercontent.com/memi-design/design-sandbox/main/public/r/registry.json
 ```
 
 ## Shader lab
